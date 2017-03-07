@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,400i');
+body {
+	background: #018425;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#018425, yellow);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#018425, yellow);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#018425, yellow);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(, yellow);
+	/* Standard syntax */
+	font-family: 'Bitter', serif;
+}
+
+.cytat {
+	border-radius: 3px;
+	position: relative;
+	margin: 8% auto auto auto;
+	width: 855px;
+	padding: 40px 50px;
+	display: table;
+	background-color: #fff;
+	background-color: rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+h3 {
+	color: #4A2B95;
+}
+
+.buttons {
+	margin-left: 45%;
+	margin-top: 4%;
+}
+
+.trigger {
+	background-color: #f5e9d1;
+	background-image: -webkit-linear-gradient(top, #f5e9d1, #018425);
+	background-image: -moz-linear-gradient(top, #f5e9d1, #018425);
+	background-image: -ms-linear-gradient(top, #f5e9d1, #018425);
+	background-image: -o-linear-gradient(top, #f5e9d1, #018425);
+	background-image: linear-gradient(to bottom, #f5e9d1, #018425);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	text-shadow: 0px 0px 0px #666666;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 16px 30px 22px 29px;
+	text-decoration: none;
+}
+
+.trigger:hover {
+	background: #018425;
+	text-decoration: none;
+}
+
+.tweet {
+	font-size: 22px;
+	margin: 59px;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 6%;
+}
